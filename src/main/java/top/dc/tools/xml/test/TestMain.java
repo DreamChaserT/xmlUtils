@@ -14,7 +14,7 @@ public class TestMain {
                 "<MsgType><![CDATA[text]]></MsgType>\n" +
                 "<Content><![CDATA[12]]></Content>\n" +
                 "<MsgId>321</MsgId>\n" +
-                "<type><id>id here</id><name>name here</name></type>\n" +
+                "<type attr=\"123456\"><id>id here</id><name>name here</name></type>\n" +
                 "</xml>";
         final MsgRequest msgRequest = parseMain(msg, MsgRequest.class);
         System.currentTimeMillis();
